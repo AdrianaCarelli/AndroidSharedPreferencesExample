@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SharedPreferencesExample</string>
+    <string name="nome">Nome</string>
+    <string name="cognome">Cognome</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefono</string>
+    <string name="titolo">INSERISCI I DATI</string>
+    <string name="registrati">REGISTRATI</string>
+    <string name="entra">ENTRA</string>
+    <string name="cancella">CANCELLA</string>
+    <string name="title_activity_fine_registration">REGISTRAZIONE AVVENUTA CON SUCCESSO</string>
+
+    <string name="preferences_nome">PREFERENCES_NOME</string>
+    <string name="preferences_cognome">PREFERENCES_COGNOME</string>
+    <string name="preferences_email">PREFERENCES_EMAIL</string>
+    <string name="preferences_phone">PREFERENCES_PHONE</string>
+
+</resources>

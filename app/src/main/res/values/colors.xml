@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b5433f</color>
+    <color name="colorPrimaryDark">#30629f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTitolo">#4063ff</color>
+    <color name="bottone_sfondo1">#048f29</color>
+    <color name="bottone_sfondo2">#e42911</color>
+    <color name="sfondo_fine_registrazione">#f5dc4f</color>
+</resources>

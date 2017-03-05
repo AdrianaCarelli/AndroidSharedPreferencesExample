@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+
+    tools:context="com.example.adrianacarelli.sharedpreferencesexample.activity.MainActivity">
+
+    <TextView
+        android:text="@string/titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitolo"
+        android:textColor="@color/colorTitolo"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:layout_marginTop="30dp"
+        android:hint="@string/nome"
+        android:selectAllOnFocus="true"
+        android:id="@+id/editTextNome" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:layout_marginTop="30dp"
+        android:hint="@string/cognome"
+        android:selectAllOnFocus="true"
+        android:id="@+id/editTextCognome" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:hint="@string/email"
+        android:selectAllOnFocus="true"
+        android:id="@+id/editTextEmail" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="phone"
+        android:digits="1234567890"
+        android:layout_marginTop="30dp"
+        android:hint="@string/phone"
+        android:selectAllOnFocus="true"
+        android:id="@+id/editTextTelefono" />
+
+    <Button
+        android:text="@string/registrati"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonRegistrati"
+        android:background="@color/bottone_sfondo1"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:text="@string/cancella"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonCancella"
+        android:background="@color/bottone_sfondo2"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
